@@ -1,0 +1,114 @@
+﻿  functions.c
+C:\Users\Lenovo\Desktop\project real\LMS\datatypes.h(9,2): warning C4091: 'typedef ': ignored on left of 'Book' when no variable is declared
+  (compiling source file 'functions.c')
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(67,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(67,12):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(67,12):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(67,12):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(90,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(90,11):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(90,11):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(90,11):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(110,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(110,12):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(110,12):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(110,12):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(150,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(150,11):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(150,11):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(150,11):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(180,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(180,12):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(180,12):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(180,12):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(197,69): warning C4474: 'printf' : too many arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(197,69):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(270,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(270,11):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(270,11):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(270,11):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(290,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(290,12):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(290,12):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(290,12):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(337,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(337,13):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(337,13):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(337,13):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(374,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(374,12):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(374,12):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(374,12):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(404,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(404,12):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(404,12):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(404,12):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(418,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(418,11):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(418,11):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(418,11):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(441,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(441,11):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(441,11):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(441,11):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(474,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(474,12):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(474,12):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\Lenovo\Desktop\project real\LMS\functions.c(474,12):
+      this argument is used as a buffer size
+  
+C:\Users\Lenovo\Desktop\project real\LMS\functions.c(502,3): warning C4013: 'qsort' undefined; assuming extern returning int
+  LMS.vcxproj -> C:\Users\Lenovo\Desktop\project real\LMS\x64\Debug\Project-C-430.exe
