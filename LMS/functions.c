@@ -219,38 +219,38 @@ void addBook(struct Book books[], int* count) {
 	books[*count].id = newId;
 
 	// Nhap Title
-	//while (1) {
-	//	char title[100];
-	//	printf("Enter Book Title: ");
-	//	fgets(title, sizeof(title), stdin);
-	//	title[strcspn(title, "\n")] = 0; // Loai bo ky tu xuong dong
+	while (1) {
+		char title[100];
+		printf("Enter Book Title: ");
+		fgets(title, sizeof(title), stdin);
+		title[strcspn(title, "\n")] = 0; // Loai bo ky tu xuong dong
 
-	//	// Kiem tra do dai tieu de
-	//	int titleLength = strlen(title);
-	//	if (titleLength <= 0) {
-	//		printf("Error: Title must be at least 1 characters long.\n");
-	//		continue;
-	//	}
-	//	if (titleLength > 100) {
-	//		printf("Error: Title must not exceed 100 characters.\n");
-	//		continue;
-	//	}
+		// Kiem tra do dai tieu de
+		int titleLength = strlen(title);
+		if (titleLength <= 0) {
+			printf("Error: Title must be at least 1 characters long.\n");
+			continue;
+		}
+		if (titleLength > 100) {
+			printf("Error: Title must not exceed 100 characters.\n");
+			continue;
+		}
 
-	//	// Kiem tra trung tieu de
-	//	if (isDuplicateTitle(books, count, title)) {
-	//		printf("Error: Title already exists. Please enter a different title.\n");
-	//	}
-	//	else {
-	//		//Gan tieu de
-	//		strcpy_s(books[*count].title, sizeof(books[*count].title), title);
-	//		break;
-	//	}
-	//}
+		// Kiem tra trung tieu de
+		if (isDuplicateTitle(books, *count, title)) {
+			printf("Error: Title already exists. Please enter a different title.\n");
+		}
+		else {
+			//Gan tieu de
+			strcpy_s(books[*count].title, sizeof(books[*count].title), title);
+			break;
+		}
+	}
 
 	//Nhap Title
-	printf("Enter Book Title: ");
-	fgets(books[*count].title, sizeof(books[*count].title), stdin);
-	books[*count].title[strcspn(books[*count].title, "\n")] = 0; // Loai bo ky tu xuong dong
+	//printf("Enter Book Title: ");
+	//fgets(books[*count].title, sizeof(books[*count].title), stdin);
+	//books[*count].title[strcspn(books[*count].title, "\n")] = 0; // Loai bo ky tu xuong dong
 
 	// Nhap Author
 	printf("Enter Author Name: ");
