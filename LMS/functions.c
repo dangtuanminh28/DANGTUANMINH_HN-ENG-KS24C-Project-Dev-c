@@ -510,3 +510,67 @@ void arrangeBook(struct Book books[], int count) {
 	// Hien thi danh sach da sap xep
 	displayBooks(books, count);
 }
+
+// Doc file chua thong tin tai khoan
+void readAccountFromFile(char* username, char* password) {
+	FILE* file = fopen("C:/Users/Lenovo/Desktop/project real/LMS/users.txt", "r");
+	if (file == NULL) {
+		printf("Error: Unable to open account file.\n");
+		return 0;
+	}
+
+	// Doc thong tin tai khoan, mat khau
+	fscanf_s(file, "%s %s", username, 20, password, 10);
+	fclose(file);
+}
+
+// Ham xu ly ky tu cua password sang dau "*"
+void getPassword(char* password, int maxLen) {
+	int i = 0;
+	char ch;
+
+	while (1) {
+		ch = getch();  // Doc ky tu ma nguoi dung nhap tu ban phim
+		if (ch == 13) { // 13 la ky tu Enter (Neu nhan Enter)
+			password[i] = '\0'; // Ket thuc chuoi
+			break;
+		}
+		else if (ch == 8 && i > 0) { // 8 la ky tu Backspace (Neu nhan Backspace)
+			i--;
+			printf("\b \b");  // Xoa ky tu da nhap
+		}
+		else if (i < maxLen - 1) {
+			password[i] = ch;
+			i++;
+			printf("*");  // Hien thi ky tu '*'
+		}
+	}
+	printf("\n");
+}
+
+//Ham dang nhap
+int login(const char* storedUsername, const char* storedPassword) {
+	char username[20];
+	char password[10];
+
+	printf("\n          LOGIN:\n");
+	printf("============================\n");
+	// Nhap ten dang nhap
+	printf("Enter Username: ");
+	fgets(username, sizeof(username), stdin);
+	username[strcspn(username, "\n")] = 0; // Loai bo ky tu xuong dong
+
+	// Nhap mat khau
+	printf("Enter Password: ");
+	getPassword(password, 10);
+	printf("============================\n");
+
+	// Kiem tra thong tin dang nhap
+	if (strcmp(username, storedUsername) == 0 && strcmp(password, storedPassword) == 0) {
+		return 1; // Dang nhap thanh cong
+	}
+	else {
+		clearScreen();
+		return 0; // Dang nhap tat bai
+	}
+}

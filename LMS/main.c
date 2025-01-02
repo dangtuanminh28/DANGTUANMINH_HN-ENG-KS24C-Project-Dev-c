@@ -7,7 +7,23 @@
 int main() {
     struct Book books[100];
     int count = 0;
+    char storedUsername[20];
+    char storedPassword[10];
+    
+    readAccountFromFile(storedUsername, storedPassword);
 
+    // Nguoi dung dang nhap
+    while (1) {
+        //kiem tra ket qua dang nhap
+        if (login(storedUsername, storedPassword)) {
+            printf("Login successful!\n");
+            break;  // Dang nhap thanh cong thoat vong lap
+        }
+        else {
+            printf("Invalid username or password! Please try again.\n");
+        }
+    }
+    
     loadBooksFromFile(books, &count);
 
     int choice;

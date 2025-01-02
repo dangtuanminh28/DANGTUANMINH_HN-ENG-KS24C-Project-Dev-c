@@ -22,3 +22,7 @@ void editBook(struct Book books[], int count);
 void deleteBook(struct Book books[], int* count);
 //Sap xep sach
 void arrangeBook(struct Book books[], int count);
+//Tai file thong tin user
+void readAccountFromFile(char* username, char* password);
+//Ham dang nhap
+int login(const char* storedUsername, const char* storedPassword);
