@@ -246,12 +246,6 @@ void addBook(struct Book books[], int* count) {
 			break;
 		}
 	}
-
-	//Nhap Title
-	//printf("Enter Book Title: ");
-	//fgets(books[*count].title, sizeof(books[*count].title), stdin);
-	//books[*count].title[strcspn(books[*count].title, "\n")] = 0; // Loai bo ky tu xuong dong
-
 	// Nhap Author
 	printf("Enter Author Name: ");
 	fgets(books[*count].author, sizeof(books[*count].author), stdin);
