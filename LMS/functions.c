@@ -246,6 +246,7 @@ void addBook(struct Book books[], int* count) {
 			break;
 		}
 	}
+
 	// Nhap Author
 	printf("Enter Author Name: ");
 	fgets(books[*count].author, sizeof(books[*count].author), stdin);

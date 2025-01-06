@@ -26,16 +26,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="book.add">
-      <Filter>Include</Filter>
-    </None>
-    <None Include="books.dat">
-      <Filter>Data</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="users.txt">
       <Filter>Data</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="book.dat">
+      <Filter>Data</Filter>
+    </None>
   </ItemGroup>
 </Project>
